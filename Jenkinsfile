@@ -7,7 +7,8 @@ pipeline {
                 // Compile the .cpp file using a shell script
                 
                 build 'PES2UG21CS462-1'
-                sh 'g++ -o obj main/hello.cpp'
+                sh 'g++ -o obj main/hello.c'
+                //sh 'g++ -o obj main/hello.cpp'
             }
         }
 
